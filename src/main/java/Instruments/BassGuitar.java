@@ -7,7 +7,7 @@ public class BassGuitar extends Instrument implements IPlay, ISell {
 
     private int strings;
 
-    public BassGuitar(String type, String brand, Double tradePrice, Double retailPrice, int strings) {
+    public BassGuitar(String type, String brand, double tradePrice, double retailPrice, int strings) {
         super(type, brand, tradePrice, retailPrice);
         this.strings = strings;
     }

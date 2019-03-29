@@ -3,10 +3,10 @@ package Misc;
 public abstract class Misc {
 
     private String brand;
-    private int tradePrice;
-    private int retailPrice;
+    private double tradePrice;
+    private double retailPrice;
 
-    public Misc(String brand, int tradePrice, int retailPrice) {
+    public Misc(String brand, double tradePrice, double retailPrice) {
         this.brand = brand;
         this.tradePrice = tradePrice;
         this.retailPrice = retailPrice;
@@ -20,7 +20,7 @@ public abstract class Misc {
         this.brand = brand;
     }
 
-    public int getTradePrice() {
+    public double getTradePrice() {
         return tradePrice;
     }
 
@@ -28,7 +28,7 @@ public abstract class Misc {
         this.tradePrice = tradePrice;
     }
 
-    public int getRetailPrice() {
+    public double getRetailPrice() {
         return retailPrice;
     }
 

@@ -4,10 +4,10 @@ public abstract class Instrument {
 
     private String type;
     private String brand;
-    private Double tradePrice;
-    private Double retailPrice;
+    private double tradePrice;
+    private double retailPrice;
 
-    public Instrument(String type, String brand, Double tradePrice, Double retailPrice) {
+    public Instrument(String type, String brand, double tradePrice, double retailPrice) {
         this.type = type;
         this.brand = brand;
         this.tradePrice = tradePrice;
